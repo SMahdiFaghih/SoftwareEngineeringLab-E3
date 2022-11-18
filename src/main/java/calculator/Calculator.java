@@ -6,4 +6,10 @@ public class Calculator
     {
         return a + b;
     }
+
+    public int sqrtDivide(int a, int b){
+        return (int)Math.sqrt(a/b);
+    }
+
 }
+
